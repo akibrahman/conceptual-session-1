@@ -31,7 +31,7 @@ nav {
 }
 .menu-container .menus li:hover {
   cursor: pointer;
-  color: darkorange;
+  color: red;
   transition: 0.15s linear;
 }
 .title {
@@ -158,19 +158,18 @@ nav {
   margin: 20px 0;
 }
 .card-container .card button {
-  padding: 10px 15px;
-  background-color: #2a2727;
+  padding: 10px 20px;
+  background-color: red;
   color: #fff;
   outline: none;
   border: 1px solid transparent;
-  border-radius: 5px;
 }
 .card-container .card button:hover {
   background-color: transparent;
-  border: 1px solid #2a2727;
-  border-radius: 10px;
+  border: 1px solid red;
   cursor: pointer;
-  transition: 0.2s linear;
+  color: red;
+  transition: 0.2s ease-in-out;
 }
 
 .footer-container {
@@ -205,6 +204,7 @@ nav {
 .footer-container > p {
   text-align: center;
   padding: 20px 0;
+  color: red;
 }
 hr {
   border-top: 1px solid red;
