@@ -71,3 +71,46 @@ nav {
 .banner-container .banner-img img {
   width: 500px;
 }
+
+.about-wrap {
+  background-color: #fff;
+  height: 400px;
+}
+.about-wrap h2 {
+  text-align: center;
+  padding: 30px;
+  font-size: 40px;
+}
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-img img {
+  width: 300px;
+}
+.about-text h5 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.about-text p {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.about-text > :nth-child(2) {
+  margin-bottom: 1px;
+}
+.about-text button {
+  padding: 10px 20px;
+  background-color: red;
+  border: 1px solid transparent;
+  font-weight: 700;
+  color: #fff;
+}
+.about-text button:hover {
+  color: red;
+  background-color: transparent;
+  border: 1px solid red;
+  transition: 0.2s linear;
+}
