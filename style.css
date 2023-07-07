@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.menu-container {
+  background-color: rgba(0, 0, 0, 0.842);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  height: 10px;
+}
+.menu-container .logo img {
+  width: 150px;
+}
+.menu-container .menus {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  color: aliceblue;
+}
+.menu-container .menus li {
+  font-size: 18px;
+}
+.menu-container .menus li:hover {
+  cursor: pointer;
+  color: darkorange;
+  transition: 0.15s linear;
+}
